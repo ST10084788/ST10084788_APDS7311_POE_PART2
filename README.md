@@ -17,6 +17,9 @@ The testing of the project can be done using the 'test.http' file.
 
 Contact Information
 Student Name: Shivani Naidu
+
 Student Number: ST10084788
+
 E-mail Address: shivanijw05@gmail.com
+
 Contact Number: 074 343 2766

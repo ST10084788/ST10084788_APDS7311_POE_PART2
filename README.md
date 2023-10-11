@@ -13,6 +13,15 @@ To start the project, you would first need to:
 
 Connection string to MongDB: mongodb+srv://user:password2023@testdb.gdzzqbi.mongodb.net/?retryWrites=true&w=majority
 
+****** PLEASE NOTE: when testing the delete function, you need to change the id that is already typed in the 'test.http' file. You can obtain the ID for a character by running the 'get all posts' request, you may then copy the 'id' field of this character and paste in the delete request method. 
+
+The delete method should look like, 
+### Delete a post 
+DELETE https://localhost:3000/api/characters/{character id} HTTP/1.1
+content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q5IiwidXNlcmlkIjoiNjM0NTFhMDQyMDE4YmIwY2JjOGIwNGNhIiwiaWF0IjoxNjY1NDczMDY2LCJleHAiOjE2NjU0NzY2NjZ9.FpGxz2CC2koE4PopXTG-qk_Kz93EjLBFBJL0qoWtu60
+
+
 The testing of the project can be done using the 'test.http' file. 
 
 Contact Information
